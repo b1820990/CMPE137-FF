@@ -20,6 +20,10 @@ struct FFTabView: View {
                     
                     Text("Input")
                 }
+            Profile()
+                .tabItem{
+                    Text("Profile")
+                }
          }
     }
 }

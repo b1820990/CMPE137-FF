@@ -16,7 +16,7 @@ var body: some View {
     NavigationView{
         Form{
             Section{
-                Picker(selection: $workoutIndex, label: Text("Workouts")){
+                Picker(selection: $workoutIndex, label: Text("Select Type")){
                     ForEach(0 ..< workouts.count){
                         Text(self.workouts[$0]).tag($0)
                         
@@ -39,7 +39,8 @@ var body: some View {
                         })
                 }
             }
-            }.navigationBarTitle(Text("Workouts"))
+            }.navigationBarTitle(Text(" Workouts"))
+            
         }
     }
 }

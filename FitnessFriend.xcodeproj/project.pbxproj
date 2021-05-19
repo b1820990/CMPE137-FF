@@ -19,6 +19,7 @@
 		0D77A6C6263BC3D70056F35E /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77A6C5263BC3D70056F35E /* SelectionView.swift */; };
 		0DB2D4EB263E8C6B00A1BC16 /* CardioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */; };
 		0DB2D4ED263E8F4000A1BC16 /* PowerLiftInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */; };
+		E232DE1A26537A8E00AFEA40 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232DE1926537A8E00AFEA40 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		0D77A6C5263BC3D70056F35E /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioInput.swift; sourceTree = "<group>"; };
 		0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerLiftInput.swift; sourceTree = "<group>"; };
+		E232DE1926537A8E00AFEA40 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +70,10 @@
 		0D2D64AE261F6AED005C7B66 /* FitnessFriend */ = {
 			isa = PBXGroup;
 			children = (
+				0D2D64AF261F6AED005C7B66 /* FitnessFriendApp.swift */,
 				0D2D64C1261F6D4C005C7B66 /* Screens */,
 				0D2D64C0261F6D36005C7B66 /* Views */,
 				0D2D64BF261F6D30005C7B66 /* Models */,
-				0D2D64AF261F6AED005C7B66 /* FitnessFriendApp.swift */,
 				0D2D64B1261F6AED005C7B66 /* ContentView.swift */,
 				0D2D64B3261F6AEE005C7B66 /* Assets.xcassets */,
 				0D2D64B8261F6AEE005C7B66 /* Info.plist */,
@@ -108,6 +110,7 @@
 		0D2D64C1261F6D4C005C7B66 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E232DE1826537A6900AFEA40 /* User Profile */,
 				0D2D64C3261F6F0A005C7B66 /* Home Screen */,
 				0D2D64C2261F6F07005C7B66 /* FitnessInput */,
 				0D2D64C5261F6FDC005C7B66 /* FFTabView.swift */,
@@ -131,6 +134,14 @@
 				0D2D64CE261F72F6005C7B66 /* Home.swift */,
 			);
 			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		E232DE1826537A6900AFEA40 /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E232DE1926537A8E00AFEA40 /* Profile.swift */,
+			);
+			path = "User Profile";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 				0D77A6C6263BC3D70056F35E /* SelectionView.swift in Sources */,
 				0D2D64B0261F6AED005C7B66 /* FitnessFriendApp.swift in Sources */,
 				0DB2D4EB263E8C6B00A1BC16 /* CardioInput.swift in Sources */,
+				E232DE1A26537A8E00AFEA40 /* Profile.swift in Sources */,
 				0D2D64D2261F7816005C7B66 /* Workouts.swift in Sources */,
 				0DB2D4ED263E8F4000A1BC16 /* PowerLiftInput.swift in Sources */,
 			);

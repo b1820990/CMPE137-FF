@@ -9,12 +9,12 @@ import SwiftUI
 
 struct CardioInput: View {
     @State private var workoutIndex = 0
-    var workouts = ["Cardio", "Powerlifting", "Misc"]
+    var workouts = ["Run", "Elliptical", "Cycling", "Walk"]
     var body: some View {
         NavigationView{
             Form{
                 Section{
-                    FFTextField(titleKey: "Miles Ran", text: .constant(""))
+                    FFTextField(titleKey: "Miles ", text: .constant(""))
                     }
                 VStack{
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
@@ -22,6 +22,8 @@ struct CardioInput: View {
                     })
                 }
                 }.navigationBarTitle(Text("Cardio Workout"))
+                    
+            
         }
     }
 }
