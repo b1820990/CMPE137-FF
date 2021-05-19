@@ -8,19 +8,24 @@
 import SwiftUI
 
 struct FFTabView: View {
+    var cardio = Cardio()
+    var pl = PL()
     var body: some View {
         TabView {
-            
-            Home()
-                .tabItem{
-                    Text("Home")
-                }
             SelectionView()
                 .tabItem{
                     
                     Text("Input")
                 }
+            Home()
+                .tabItem{
+                    Text("Home")
+                }
+            
          }
+        .environmentObject(cardio)
+        .environmentObject(pl)
+        
     }
 }
 

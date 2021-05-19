@@ -8,23 +8,31 @@
 import SwiftUI
 
 struct CardioInput: View {
+    @EnvironmentObject var cardio: Cardio
+    @StateObject var viewModel = CardioModel()
     @State private var workoutIndex = 0
-    var workouts = ["Cardio", "Powerlifting", "Misc"]
+    
+   
+    
+    
     var body: some View {
         NavigationView{
             Form{
                 Section{
-                    FFTextField(titleKey: "Miles Ran", text: .constant(""))
+                    TextField("Miles Ran", text: $viewModel.cardio.milesRan )
                     }
                 VStack{
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {cardio.add(viewModel.cardio)}, label: {
                         Text("Submit")
                     })
+                        
+                    
                 }
                 }.navigationBarTitle(Text("Cardio Workout"))
         }
     }
 }
+
 
 
 struct CardioInput_Previews: PreviewProvider {

@@ -8,22 +8,24 @@
 import SwiftUI
 
 struct PowerLiftInput: View {
-    @State private var workoutIndex = 0
-    var workouts = ["Bench Press", "Squats", "Deadlifts", "Curls", "Inclined Bench", "Misc"]
+    @EnvironmentObject var pl: PL
+    @StateObject var viewModel = plModel()
+    
+    
     var body: some View {
         NavigationView{
             Form{
                 Section{
-                    Picker(selection: $workoutIndex, label: Text("Type")){
-                        ForEach(0 ..< workouts.count){
-                            Text(self.workouts[$0]).tag($0)
-                            
-                            }
-                        }
-                    FFTextField(titleKey: "Sets Done", text: .constant(""))
+                    TextField("Workout Type", text: $viewModel.pl.workout)
+                }
+                Section{
+                    TextField("Sets Done", text: $viewModel.pl.sets)
                     }
+                Section{
+                    TextField("Reps Done", text: $viewModel.pl.reps)
+                }
                 VStack{
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {pl.add(viewModel.pl)}, label: {
                         Text("Submit")
                     })
                 }

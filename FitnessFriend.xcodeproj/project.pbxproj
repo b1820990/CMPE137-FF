@@ -13,12 +13,20 @@
 		0D2D64B7261F6AEE005C7B66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D64B6261F6AEE005C7B66 /* Preview Assets.xcassets */; };
 		0D2D64C6261F6FDC005C7B66 /* FFTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D64C5261F6FDC005C7B66 /* FFTabView.swift */; };
 		0D2D64CF261F72F6005C7B66 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D64CE261F72F6005C7B66 /* Home.swift */; };
-		0D2D64D2261F7816005C7B66 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D64D1261F7816005C7B66 /* Workouts.swift */; };
 		0D77A6BF263BC1090056F35E /* FFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77A6BE263BC1090056F35E /* FFTextField.swift */; };
 		0D77A6C3263BC2FF0056F35E /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77A6C2263BC2FF0056F35E /* SectionHeader.swift */; };
 		0D77A6C6263BC3D70056F35E /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77A6C5263BC3D70056F35E /* SelectionView.swift */; };
 		0DB2D4EB263E8C6B00A1BC16 /* CardioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */; };
 		0DB2D4ED263E8F4000A1BC16 /* PowerLiftInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */; };
+		0DB2D5072653A69500A1BC16 /* CardioWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D5062653A69500A1BC16 /* CardioWorkout.swift */; };
+		0DB2D5092653A8B500A1BC16 /* Cardio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D5082653A8B500A1BC16 /* Cardio.swift */; };
+		0DB2D50C2653AC0D00A1BC16 /* cardioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D50B2653AC0D00A1BC16 /* cardioCell.swift */; };
+		0DB2D50E2653B3E500A1BC16 /* CardioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D50D2653B3E500A1BC16 /* CardioModel.swift */; };
+		0DB2D5102653B7A900A1BC16 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D50F2653B7A900A1BC16 /* HomeModel.swift */; };
+		0DB2D51226544DF600A1BC16 /* PLWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D51126544DF600A1BC16 /* PLWorkout.swift */; };
+		0DB2D51426544F0100A1BC16 /* PL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D51326544F0100A1BC16 /* PL.swift */; };
+		0DB2D51626544FBA00A1BC16 /* plModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D51526544FBA00A1BC16 /* plModel.swift */; };
+		0DB2D518265454AB00A1BC16 /* plCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D517265454AB00A1BC16 /* plCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +38,20 @@
 		0D2D64B8261F6AEE005C7B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D2D64C5261F6FDC005C7B66 /* FFTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTabView.swift; sourceTree = "<group>"; };
 		0D2D64CE261F72F6005C7B66 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		0D2D64D1261F7816005C7B66 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
 		0D77A6BE263BC1090056F35E /* FFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTextField.swift; sourceTree = "<group>"; };
 		0D77A6C2263BC2FF0056F35E /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		0D77A6C5263BC3D70056F35E /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioInput.swift; sourceTree = "<group>"; };
 		0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerLiftInput.swift; sourceTree = "<group>"; };
+		0DB2D5062653A69500A1BC16 /* CardioWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioWorkout.swift; sourceTree = "<group>"; };
+		0DB2D5082653A8B500A1BC16 /* Cardio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardio.swift; sourceTree = "<group>"; };
+		0DB2D50B2653AC0D00A1BC16 /* cardioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardioCell.swift; sourceTree = "<group>"; };
+		0DB2D50D2653B3E500A1BC16 /* CardioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioModel.swift; sourceTree = "<group>"; };
+		0DB2D50F2653B7A900A1BC16 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		0DB2D51126544DF600A1BC16 /* PLWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLWorkout.swift; sourceTree = "<group>"; };
+		0DB2D51326544F0100A1BC16 /* PL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PL.swift; sourceTree = "<group>"; };
+		0DB2D51526544FBA00A1BC16 /* plModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plModel.swift; sourceTree = "<group>"; };
+		0DB2D517265454AB00A1BC16 /* plCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 		0D2D64AE261F6AED005C7B66 /* FitnessFriend */ = {
 			isa = PBXGroup;
 			children = (
+				0DB2D50A2653ABFD00A1BC16 /* Cells */,
 				0D2D64C1261F6D4C005C7B66 /* Screens */,
 				0D2D64C0261F6D36005C7B66 /* Views */,
 				0D2D64BF261F6D30005C7B66 /* Models */,
@@ -91,7 +108,10 @@
 		0D2D64BF261F6D30005C7B66 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0D2D64D1261F7816005C7B66 /* Workouts.swift */,
+				0DB2D5062653A69500A1BC16 /* CardioWorkout.swift */,
+				0DB2D51126544DF600A1BC16 /* PLWorkout.swift */,
+				0DB2D5082653A8B500A1BC16 /* Cardio.swift */,
+				0DB2D51326544F0100A1BC16 /* PL.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,6 +141,8 @@
 				0D77A6C5263BC3D70056F35E /* SelectionView.swift */,
 				0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */,
 				0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */,
+				0DB2D50D2653B3E500A1BC16 /* CardioModel.swift */,
+				0DB2D51526544FBA00A1BC16 /* plModel.swift */,
 			);
 			path = FitnessInput;
 			sourceTree = "<group>";
@@ -129,8 +151,18 @@
 			isa = PBXGroup;
 			children = (
 				0D2D64CE261F72F6005C7B66 /* Home.swift */,
+				0DB2D50F2653B7A900A1BC16 /* HomeModel.swift */,
 			);
 			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		0DB2D50A2653ABFD00A1BC16 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0DB2D50B2653AC0D00A1BC16 /* cardioCell.swift */,
+				0DB2D517265454AB00A1BC16 /* plCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,16 +234,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB2D51226544DF600A1BC16 /* PLWorkout.swift in Sources */,
 				0D2D64B2261F6AED005C7B66 /* ContentView.swift in Sources */,
+				0DB2D5092653A8B500A1BC16 /* Cardio.swift in Sources */,
+				0DB2D50C2653AC0D00A1BC16 /* cardioCell.swift in Sources */,
 				0D2D64C6261F6FDC005C7B66 /* FFTabView.swift in Sources */,
 				0D2D64CF261F72F6005C7B66 /* Home.swift in Sources */,
 				0D77A6BF263BC1090056F35E /* FFTextField.swift in Sources */,
 				0D77A6C3263BC2FF0056F35E /* SectionHeader.swift in Sources */,
+				0DB2D5072653A69500A1BC16 /* CardioWorkout.swift in Sources */,
 				0D77A6C6263BC3D70056F35E /* SelectionView.swift in Sources */,
 				0D2D64B0261F6AED005C7B66 /* FitnessFriendApp.swift in Sources */,
+				0DB2D518265454AB00A1BC16 /* plCell.swift in Sources */,
+				0DB2D51626544FBA00A1BC16 /* plModel.swift in Sources */,
+				0DB2D5102653B7A900A1BC16 /* HomeModel.swift in Sources */,
 				0DB2D4EB263E8C6B00A1BC16 /* CardioInput.swift in Sources */,
-				0D2D64D2261F7816005C7B66 /* Workouts.swift in Sources */,
+				0DB2D50E2653B3E500A1BC16 /* CardioModel.swift in Sources */,
 				0DB2D4ED263E8F4000A1BC16 /* PowerLiftInput.swift in Sources */,
+				0DB2D51426544F0100A1BC16 /* PL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
