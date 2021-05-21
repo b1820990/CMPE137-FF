@@ -18,7 +18,7 @@ struct plCell: View {
                     .font(.title3)
                     .foregroundColor(.secondary)
             }
-            .frame(width: 35, alignment: .leading)
+            .frame(width: 35, alignment: .top)
             VStack(alignment: .leading, spacing: 10){
                 HStack{
                     Text("\(pl.workout)")

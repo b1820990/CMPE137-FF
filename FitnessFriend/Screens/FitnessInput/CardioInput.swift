@@ -10,7 +10,7 @@ import SwiftUI
 struct CardioInput: View {
     @EnvironmentObject var cardio: Cardio
     @StateObject var viewModel = CardioModel()
-    @State private var workoutIndex = 0
+    @State private var workoutIndex = 0 
     
    
     

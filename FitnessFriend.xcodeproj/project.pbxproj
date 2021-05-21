@@ -16,6 +16,10 @@
 		0D77A6BF263BC1090056F35E /* FFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77A6BE263BC1090056F35E /* FFTextField.swift */; };
 		0D77A6C3263BC2FF0056F35E /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77A6C2263BC2FF0056F35E /* SectionHeader.swift */; };
 		0D77A6C6263BC3D70056F35E /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77A6C5263BC3D70056F35E /* SelectionView.swift */; };
+		0DB2457F265768E800F7E33D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2457E265768E800F7E33D /* Profile.swift */; };
+		0DB24581265775B800F7E33D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB24580265775B800F7E33D /* User.swift */; };
+		0DB245832657764400F7E33D /* UserN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB245822657764400F7E33D /* UserN.swift */; };
+		0DB245852657775E00F7E33D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB245842657775E00F7E33D /* UserModel.swift */; };
 		0DB2D4EB263E8C6B00A1BC16 /* CardioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */; };
 		0DB2D4ED263E8F4000A1BC16 /* PowerLiftInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */; };
 		0DB2D5072653A69500A1BC16 /* CardioWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D5062653A69500A1BC16 /* CardioWorkout.swift */; };
@@ -41,6 +45,10 @@
 		0D77A6BE263BC1090056F35E /* FFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTextField.swift; sourceTree = "<group>"; };
 		0D77A6C2263BC2FF0056F35E /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		0D77A6C5263BC3D70056F35E /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		0DB2457E265768E800F7E33D /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0DB24580265775B800F7E33D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0DB245822657764400F7E33D /* UserN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserN.swift; sourceTree = "<group>"; };
+		0DB245842657775E00F7E33D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioInput.swift; sourceTree = "<group>"; };
 		0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerLiftInput.swift; sourceTree = "<group>"; };
 		0DB2D5062653A69500A1BC16 /* CardioWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioWorkout.swift; sourceTree = "<group>"; };
@@ -112,6 +120,8 @@
 				0DB2D51126544DF600A1BC16 /* PLWorkout.swift */,
 				0DB2D5082653A8B500A1BC16 /* Cardio.swift */,
 				0DB2D51326544F0100A1BC16 /* PL.swift */,
+				0DB24580265775B800F7E33D /* User.swift */,
+				0DB245822657764400F7E33D /* UserN.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -128,6 +138,7 @@
 		0D2D64C1261F6D4C005C7B66 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0DB2457D265768A100F7E33D /* User Profile */,
 				0D2D64C3261F6F0A005C7B66 /* Home Screen */,
 				0D2D64C2261F6F07005C7B66 /* FitnessInput */,
 				0D2D64C5261F6FDC005C7B66 /* FFTabView.swift */,
@@ -154,6 +165,15 @@
 				0DB2D50F2653B7A900A1BC16 /* HomeModel.swift */,
 			);
 			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		0DB2457D265768A100F7E33D /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0DB2457E265768E800F7E33D /* Profile.swift */,
+				0DB245842657775E00F7E33D /* UserModel.swift */,
+			);
+			path = "User Profile";
 			sourceTree = "<group>";
 		};
 		0DB2D50A2653ABFD00A1BC16 /* Cells */ = {
@@ -239,9 +259,12 @@
 				0DB2D5092653A8B500A1BC16 /* Cardio.swift in Sources */,
 				0DB2D50C2653AC0D00A1BC16 /* cardioCell.swift in Sources */,
 				0D2D64C6261F6FDC005C7B66 /* FFTabView.swift in Sources */,
+				0DB245832657764400F7E33D /* UserN.swift in Sources */,
 				0D2D64CF261F72F6005C7B66 /* Home.swift in Sources */,
 				0D77A6BF263BC1090056F35E /* FFTextField.swift in Sources */,
 				0D77A6C3263BC2FF0056F35E /* SectionHeader.swift in Sources */,
+				0DB24581265775B800F7E33D /* User.swift in Sources */,
+				0DB245852657775E00F7E33D /* UserModel.swift in Sources */,
 				0DB2D5072653A69500A1BC16 /* CardioWorkout.swift in Sources */,
 				0D77A6C6263BC3D70056F35E /* SelectionView.swift in Sources */,
 				0D2D64B0261F6AED005C7B66 /* FitnessFriendApp.swift in Sources */,
@@ -250,6 +273,7 @@
 				0DB2D5102653B7A900A1BC16 /* HomeModel.swift in Sources */,
 				0DB2D4EB263E8C6B00A1BC16 /* CardioInput.swift in Sources */,
 				0DB2D50E2653B3E500A1BC16 /* CardioModel.swift in Sources */,
+				0DB2457F265768E800F7E33D /* Profile.swift in Sources */,
 				0DB2D4ED263E8F4000A1BC16 /* PowerLiftInput.swift in Sources */,
 				0DB2D51426544F0100A1BC16 /* PL.swift in Sources */,
 			);

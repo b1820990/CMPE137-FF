@@ -12,30 +12,30 @@ struct cardioCell: View {
     let index: Int
     
     var body: some View {
-        HStack(spacing: 5){
+        HStack{
             VStack{
                 Text("\(index)")
                     .font(.title3)
                     .foregroundColor(.secondary)
             }
-            .frame(width: 35,alignment: .leading)
-            VStack(alignment: .leading, spacing: 10){
+            .frame(width: 35, alignment: .leading)
+            VStack(alignment: .leading){
                 HStack{
-                    Text("Miles Ran")
+                    Text("Running Workout")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
                 }
                 HStack{
-                    Text("\(cardio.milesRan)")
+                    Text("Miles Ran: \(cardio.milesRan)")
+                    Spacer()
+                    Text("Date :")
+                    Text(Date(),style: .date)
                 }
             }
         }
+      
+        
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        cardioCell(cardio: CardioWorkout(milesRan:"5"), index: 1)
-    }
-}
