@@ -25,6 +25,7 @@
 		0DB2458E2657819200F7E33D /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2458B2657819200F7E33D /* AlertItem.swift */; };
 		0DB2458F2657819200F7E33D /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2458C2657819200F7E33D /* Toast.swift */; };
 		0DB245922657824B00F7E33D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB245912657824B00F7E33D /* File.swift */; };
+		0DB245942657A05800F7E33D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB245932657A05700F7E33D /* SplashScreen.swift */; };
 		0DB2D4EB263E8C6B00A1BC16 /* CardioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */; };
 		0DB2D4ED263E8F4000A1BC16 /* PowerLiftInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */; };
 		0DB2D5072653A69500A1BC16 /* CardioWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2D5062653A69500A1BC16 /* CardioWorkout.swift */; };
@@ -59,6 +60,7 @@
 		0DB2458B2657819200F7E33D /* AlertItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		0DB2458C2657819200F7E33D /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		0DB245912657824B00F7E33D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0DB245932657A05700F7E33D /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		0DB2D4EA263E8C6B00A1BC16 /* CardioInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioInput.swift; sourceTree = "<group>"; };
 		0DB2D4EC263E8F4000A1BC16 /* PowerLiftInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerLiftInput.swift; sourceTree = "<group>"; };
 		0DB2D5062653A69500A1BC16 /* CardioWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioWorkout.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		0D2D64C1261F6D4C005C7B66 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0DB245932657A05700F7E33D /* SplashScreen.swift */,
 				0DB2457D265768A100F7E33D /* User Profile */,
 				0D2D64C3261F6F0A005C7B66 /* Home Screen */,
 				0D2D64C2261F6F07005C7B66 /* FitnessInput */,
@@ -301,6 +304,7 @@
 				0DB2458F2657819200F7E33D /* Toast.swift in Sources */,
 				0DB245852657775E00F7E33D /* UserModel.swift in Sources */,
 				0DB2D5072653A69500A1BC16 /* CardioWorkout.swift in Sources */,
+				0DB245942657A05800F7E33D /* SplashScreen.swift in Sources */,
 				0DB245922657824B00F7E33D /* File.swift in Sources */,
 				0D77A6C6263BC3D70056F35E /* SelectionView.swift in Sources */,
 				0D2D64B0261F6AED005C7B66 /* FitnessFriendApp.swift in Sources */,

@@ -11,7 +11,7 @@ struct SelectionView: View {
     @State private var toggled = false
     @EnvironmentObject var cardio: Cardio
     @State private var workoutIndex = 0
-    var workouts = ["Cardio", "Powerlifting", "Misc"]
+    var workouts = ["Cardio", "Powerlifting"]
     
 var body: some View {
     NavigationView{

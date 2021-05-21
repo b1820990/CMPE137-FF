@@ -29,6 +29,9 @@ struct plCell: View {
                 HStack{
                     Text("Reps: \(pl.sets)")
                     Text("Sets: \(pl.reps)")
+                    Spacer()
+                    Text("Date: ")
+                    Text(Date(), style: .date)
                 }
             }
         }

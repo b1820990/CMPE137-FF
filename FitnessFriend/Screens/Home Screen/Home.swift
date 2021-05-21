@@ -35,20 +35,31 @@ struct Home: View {
                 Spacer()
             }
             Divider()
-            HStack{
-                Spacer()
-                Text("Did you workout today? ")
-                CheckBoxView(checked: $checked)
-                Spacer()
-            }.padding(.bottom, 30)
-                
+            
             VStack {
-                Text("Activity:")
-                List(cardio.cardioWork.indices, id: \.self){
-                    index in cardioCell(cardio: cardio.cardioWork[index], index: index+1)
+                Text("Activities:")
+                    .font(.title3)
+                    .fontWeight(.bold)
+                    .foregroundColor(.blue)
+                VStack{
+                    Text("Cardio Workouts")
+                    List(cardio.cardioWork.indices, id: \.self){
+                        index in cardioCell(cardio: cardio.cardioWork[index], index: index+1)
+                    }
                 }
-                List(pl.plift.indices, id: \.self){
-                    index in plCell(pl: pl.plift[index], index: index+1)
+                VStack{
+                    Text("Power Lifting Workouts")
+                    List(pl.plift.indices, id: \.self){
+                        index in plCell(pl: pl.plift[index], index: index+1)
+                    }
+                    
+                }
+                HStack{
+                    if cardio.didWork || pl.didWork {
+                        Image(systemName: "checkmark")
+                        Text("You excercised today!")
+                            .fontWeight(.bold)
+                    }
                 }
             }
             Spacer()

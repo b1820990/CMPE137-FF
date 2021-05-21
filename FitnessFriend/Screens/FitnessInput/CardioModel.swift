@@ -11,10 +11,13 @@ class CardioModel: ObservableObject{
     @Published var cardio = CardioWorkout()
     @Published var isPresentingToast    : Bool  = false
     @Published var alert = AlertContext.workoutAdded
+    @Published var didWork: Bool = false
+    
     func createNewWorkout(){
         self.cardio = CardioWorkout()
         alert = AlertContext.workoutAdded
         animateToast()
+        didWork = true;
     }
     func animateToast() {
         withAnimation {
