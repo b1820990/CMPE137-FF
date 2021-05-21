@@ -16,15 +16,17 @@ struct FFTabView: View {
             
             Home()
                 .tabItem{
+                    Image(systemName: "house")
                     Text("Home")
                 }
             SelectionView()
                 .tabItem{
-                    
+                    Image(systemName: "pencil")
                     Text("Input")
                 }
             Profile()
                 .tabItem{
+                    Image(systemName: "person")
                     Text("Profile")
                 }
             
