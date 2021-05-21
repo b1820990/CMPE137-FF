@@ -22,7 +22,7 @@ struct CardioInput: View {
                     TextField("Miles Ran", text: $viewModel.cardio.milesRan )
                     }
                 VStack{
-                    Button(action: {cardio.add(viewModel.cardio)}, label: {
+                    Button(action: {cardio.add(viewModel.cardio); viewModel.createNewWorkout()}, label: {
                         Text("Submit")
                     })
                         
@@ -30,6 +30,7 @@ struct CardioInput: View {
                 }
                 }.navigationBarTitle(Text("Cardio Workout"))
         }
+        .toast(isPresenting: $viewModel.isPresentingToast, alertItem: viewModel.alert)
     }
 }
 

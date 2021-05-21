@@ -25,12 +25,13 @@ struct PowerLiftInput: View {
                     TextField("Reps Done", text: $viewModel.pl.reps)
                 }
                 VStack{
-                    Button(action: {pl.add(viewModel.pl)}, label: {
+                    Button(action: {pl.add(viewModel.pl);viewModel.createNewWorkout()}, label: {
                         Text("Submit")
                     })
                 }
                 }.navigationBarTitle(Text("Power Lift Workout"))
             }
+        .toast(isPresenting: $viewModel.isPresentingToast, alertItem: viewModel.alert)
     }
 }
 
