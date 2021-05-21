@@ -37,7 +37,7 @@ struct Home: View {
             Divider()
             
             VStack {
-                Text("Activities:")
+                Text("Recent Workouts:")
                     .font(.title3)
                     .fontWeight(.bold)
                     .foregroundColor(.blue)
